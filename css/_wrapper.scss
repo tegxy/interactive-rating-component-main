@@ -1,5 +1,6 @@
-body {
+.wrapper {
   background-color: var(--background-color);
+  height: 100vh;
   font-family: "Overpass", sans-serif;
   display: flex;
   flex-direction: column;
