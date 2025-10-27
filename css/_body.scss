@@ -1,4 +1,7 @@
 body {
   background-color: var(--background-color);
   font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

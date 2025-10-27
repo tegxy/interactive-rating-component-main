@@ -1,3 +1,5 @@
 main {
   background-color: var(--main-background-color);
+  width: min(38rem, 80%);
+  margin: auto 0;
 }
