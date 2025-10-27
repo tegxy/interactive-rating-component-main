@@ -1,0 +1,118 @@
+/* === Modern CSS Reset === */
+
+/* 1. Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Core root defaults */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* 3. Body base styles */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  overflow-x: hidden; /* prevent horizontal scroll without blocking vertical */
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  color: #111;
+}
+
+/* 4. Margin reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* 5. Lists */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  padding: 0;
+}
+
+/* 6. Anchor defaults */
+a:not([class]) {
+  color: inherit;
+  text-decoration-skip-ink: auto;
+}
+
+/* 7. Media elements */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 8. Form elements */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 9. Accessibility: reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 10. Focus styles (keyboard accessibility) */
+:focus-visible {
+  outline: 2px solid #005fcc; /* Accessible blue focus ring */
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* 11. Visually hidden utility (for screen readers only) */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
