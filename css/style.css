@@ -118,7 +118,9 @@ select {
 
 :root {
   --background-color: hsl(216, 12%, 8%);
-  --main-background-color: hsl(217, 12%, 63%);
+  --main-background-color: hsl(213, 19%, 18%);
+  --what-is-color: hsl(213, 18%, 20%);
+  --grey-text-color: hsl(217, 12%, 63%);
   --white-text-color: hsl(0, 0%, 100%);
   --orange-text-color: hsl(25, 97%, 53%);
 }
@@ -134,8 +136,31 @@ select {
 
 main {
   background-color: var(--main-background-color);
-  width: min(38rem, 80%);
+  width: min(28rem, 80%);
   margin: auto 0;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+main h1 {
+  color: var(--white-text-color);
+}
+main p {
+  color: var(--grey-text-color);
+}
+
+button {
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--what-is-color);
+  color: var(--grey-text-color);
+}
+
+button:hover {
+  background-color: var(--orange-text-color);
+  color: var(--main-background-color);
 }
 
 .attribution {
