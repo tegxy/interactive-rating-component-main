@@ -4,6 +4,9 @@ main {
   margin: auto 0;
   padding: 2rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 
   h1 {
     color: var(--white-text-color);
@@ -12,6 +15,12 @@ main {
   p {
     color: var(--grey-text-color);
   }
+}
+
+.rating {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
@@ -26,4 +35,14 @@ button {
 button:hover {
   background-color: var(--orange-text-color);
   color: var(--main-background-color);
+}
+
+.submitButton {
+  background-color: var(--orange-text-color);
+  color: var(--main-background-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  padding: 0.5rem;
 }
