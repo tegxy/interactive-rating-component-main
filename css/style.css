@@ -127,7 +127,7 @@ select {
 
 .wrapper {
   background-color: var(--background-color);
-  height: 100vh;
+  height: 100dvh;
   font-family: "Overpass", sans-serif;
   display: flex;
   flex-direction: column;
