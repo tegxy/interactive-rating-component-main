@@ -157,7 +157,7 @@ main p {
   justify-content: space-between;
 }
 
-button {
+.button {
   cursor: pointer;
   width: 3rem;
   height: 3rem;
@@ -167,7 +167,7 @@ button {
   color: var(--grey-text-color);
 }
 
-button:hover {
+.button:hover {
   background-color: var(--orange-text-color);
   color: var(--main-background-color);
 }
