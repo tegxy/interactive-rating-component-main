@@ -172,6 +172,11 @@ main p {
   color: var(--main-background-color);
 }
 
+.clicked {
+  background-color: var(--white-text-color);
+  color: var(--main-background-color);
+}
+
 .submitButton {
   background-color: var(--orange-text-color);
   color: var(--main-background-color);
@@ -180,6 +185,33 @@ main p {
   justify-content: center;
   border-radius: 2rem;
   padding: 0.5rem;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: var(--white-text-color);
+  color: var(--main-background-color);
+}
+
+.main2 {
+  align-items: center;
+}
+.main2 .selected {
+  width: 60%;
+  border-radius: 1rem;
+  background-color: var(--what-is-color);
+  color: var(--orange-text-color);
+  display: flex;
+  justify-content: center;
+  padding: 0.3rem;
+}
+
+.text {
+  color: var(--orange-text-color);
+}
+
+.remarks {
+  text-align: center;
 }
 
 .attribution {

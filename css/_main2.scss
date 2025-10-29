@@ -1,0 +1,21 @@
+.main2 {
+  align-items: center;
+
+  .selected {
+    width: 60%;
+    border-radius: 1rem;
+    background-color: var(--what-is-color);
+    color: var(--orange-text-color);
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+  }
+}
+
+.text {
+  color: var(--orange-text-color);
+}
+
+.remarks {
+  text-align: center;
+}

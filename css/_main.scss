@@ -37,6 +37,11 @@ main {
   color: var(--main-background-color);
 }
 
+.clicked {
+  background-color: var(--white-text-color);
+  color: var(--main-background-color);
+}
+
 .submitButton {
   background-color: var(--orange-text-color);
   color: var(--main-background-color);
@@ -45,4 +50,10 @@ main {
   justify-content: center;
   border-radius: 2rem;
   padding: 0.5rem;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: var(--white-text-color);
+  color: var(--main-background-color);
 }
