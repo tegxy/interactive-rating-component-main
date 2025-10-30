@@ -8,5 +8,13 @@ rates.forEach((rate) => {
       }
     });
     rate.classList.toggle("clicked");
+
+    const selectedText = rate.textContent;
+
+    const submit = document.querySelector(".submitButton");
+
+    const updateText = document.querySelector(".text");
+
+    console.log(updateText);
   };
 });
