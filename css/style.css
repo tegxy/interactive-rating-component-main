@@ -216,6 +216,7 @@ main p {
 
 .text {
   color: var(--orange-text-color);
+  width: 100%;
 }
 
 .remarks {
