@@ -205,7 +205,7 @@ main p {
   gap: 1rem;
 }
 .main2 .selected {
-  width: 60%;
+  width: 75%;
   border-radius: 1rem;
   background-color: var(--what-is-color);
   color: var(--orange-text-color);
@@ -216,6 +216,7 @@ main p {
 
 .text {
   color: var(--orange-text-color);
+  text-align: center;
   width: 100%;
 }
 
