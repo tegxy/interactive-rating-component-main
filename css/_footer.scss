@@ -2,6 +2,8 @@
   font-size: 0.7rem;
   text-align: center;
   background-color: var(--main-background-color);
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 
 a {
@@ -9,5 +11,5 @@ a {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--orange-text-color);
 }
