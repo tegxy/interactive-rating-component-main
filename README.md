@@ -41,7 +41,7 @@ Your users should be able to:
 
 ###### Author
 
-- Website - Tega Lucky-Fiakpa (https://heisenberg-accordion.netlify.app/)
+- Website - Tega Lucky-Fiakpa (https://heisenberg-interactive-rating.netlify.app/)
 - Frontend Mentor - @tegxy(https://www.frontendmentor.io/profile/tegxy)
 - Twitter - @tegxy(https://www.twitter.com/tegxy)
 
